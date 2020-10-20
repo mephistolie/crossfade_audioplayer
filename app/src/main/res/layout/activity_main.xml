@@ -17,6 +17,11 @@
         app:layout_constraintTop_toTopOf="parent"
         android:padding="16dp">
 
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:src="@drawable/icon"/>
+
         <com.google.android.material.slider.Slider
             android:id="@+id/crossfade"
             android:layout_width="wrap_content"
@@ -43,14 +48,16 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/first_audio"
-                android:backgroundTint="@color/colorPrimary"/>
+                android:backgroundTint="@color/colorPrimary"
+                tools:ignore="ButtonStyle" />
 
             <Button
                 android:id="@+id/second_audio"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/second_audio"
-                android:backgroundTint="@color/colorPrimary"/>
+                android:backgroundTint="@color/colorPrimary"
+                tools:ignore="ButtonStyle" />
 
         </LinearLayout>
 
