@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Crossfade Audioplayer</string>
+    <string name="first_audio">Choose 1 audio</string>
+    <string name="second_audio">Choose 2 audio</string>
+    <string name="play">Play</string>
+    <string name="stop">Stop</string>
+    <string name="error">Error during audio selection</string>
+    <string name="success">Audio is selected</string>
+    <string name="select_audio">First select the audio</string>
+    <string name="too_short">Audios too short for selected crossfade length</string>
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Кроссфейд Аудиоплеер</string>
+    <string name="first_audio">Выберите 1 аудио</string>
+    <string name="second_audio">Выберите 2 аудио</string>
+    <string name="play">Играть</string>
+    <string name="stop">Стоп</string>
+    <string name="error">Ошибка во время выбора аудио</string>
+    <string name="success">Аудио выбрано</string>
+    <string name="select_audio">Сначала выберите аудио</string>
+    <string name="too_short">Аудио слишком коротки для выбранной длины кроссфейда</string>
+</resources>
